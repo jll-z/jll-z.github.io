@@ -319,6 +319,10 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .head_box{
+    width: 1200px;
+  }
 }
 
 .quad_wrap{

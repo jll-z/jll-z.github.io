@@ -30,14 +30,14 @@
 .list_sel{
   display: flex;
   position: relative;
-  width: 80%;
+  width: 85%;
   float: left;
 }
 
 .list_head{
   display: flex;
   position: relative;
-  width: 20%;
+  width: 15%;
   float: left;
   top: 20%;
 }

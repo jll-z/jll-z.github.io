@@ -7,6 +7,11 @@
   /* The width is the width of the web page */
 }
 
+*{
+  font-family: Raleway;
+  font-weight: 400;
+}
+
 .head_map{
   display: flex;
   position: relative;
@@ -27,6 +32,7 @@
 .center-pic{
   opacity: 50%;
   max-width: 100%;
+  width: 100%;
   position: relative;
   top: 0;
   right: 0;
@@ -79,13 +85,25 @@
 }
 
 .text_con h1{
-  top:50%;
+  top:40%;
   position: absolute;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   transform: translate(0, -50%);
   font-family: Raleway;
+}
+
+.text_con p{
+  top:60%;
+  left:65%;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  font-family: Raleway;
+  text-align: left;
 }
 .navbar-nav{
   /*padding-left:60px;*/
@@ -346,4 +364,10 @@ input[type=submit] {
   .inner_vert{
     height: 20%;
   }
+}
+
+.heavy{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 12pt;
 }

@@ -1,0 +1,349 @@
+/* Set the size of the div element that contains the map */
+#map {
+  height: 100%;
+  /* The height is 400 pixels */
+  width: 100%;
+  margin: auto;
+  /* The width is the width of the web page */
+}
+
+.head_map{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.container-updated{
+  width:100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.center-pic{
+  opacity: 50%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.block{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  height:40%;
+  width: 40%;
+  background-color:rgba(255, 255, 255, .3);
+  text-align: center;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.text-block{
+  position: relative;
+  top:50%;
+  left:50%;
+  color: black;
+  text-align:center;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  width: 100%;
+}
+
+.map_con{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.text_con{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  background-color: rgba(177,212, 222, .3);
+  justify-content: center;
+  border-left: 5px solid black;
+}
+
+.text_con h1{
+  top:50%;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  font-family: Raleway;
+}
+.navbar-nav{
+  /*padding-left:60px;*/
+  /*padding-right: 60px;*/
+  margin-left: 0;
+}
+
+.navbar-custom{
+  background-color: White;
+}
+
+.nav-link{
+  color:#000000;
+}
+
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12pt;
+  padding-top: -4px;
+  padding-bottom: -4px;
+}
+
+.nav-item-first{
+  padding-left: -10px;
+  padding-right: 10px;
+  font-size: 12pt;
+  padding-top: -4px;
+  padding-bottom: -4px;
+}
+
+.line{
+  background-color: #000000;
+  height:.3px;
+  width: 90vw;
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link{
+  font-family: 'Raleway', serif;
+}
+
+footer{
+  font-family: Raleway;
+  text-align: center;
+  font-size: 8px;
+}
+.wrapper{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.inner_left{
+  width: 50%;
+  display: flex;
+  position: relative;
+  float: left;
+}
+
+.text_box{
+  position: absolute;
+  margin: auto;
+  width: 80%;
+}
+
+
+.inner_right{
+  width: 50%;
+  display: flex;
+  position: relative;
+  float: right;
+}
+
+.inner_left_small{
+  width: 30%;
+  margin-right: 30px;
+  display: flex;
+  position: relative;
+  float: left;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+.inner_vert{
+  display: flex;
+  height: 50%;
+  text-align: center;
+}
+
+.inner_vert h2{
+  text-align: center;
+  margin: auto;
+}
+
+.icon-img{
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  max-width: 100%;
+
+}
+
+.inner_vert h2{
+  display: flex;
+  text-align: center;
+  font-family: Raleway;
+}
+
+@media (max-width: 600px){
+  .inner_vert h2{
+    font-size: 12pt;
+  }
+}
+@media (max-width: 300px){
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .inner_left_small{
+    width: 100%;
+  }
+
+  .icon-img{
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+
+
+.container-icon{
+  display: flex;
+  position: relative;
+  width: 20%;
+  float: left;
+}
+
+.container-main{
+  display: flex;
+  position: relative;
+  width: 80%;
+  float: left;
+  padding-left: 20px;
+}
+
+.hide_drop{
+  display: none;
+}
+
+.drop-icon{
+  cursor: pointer;
+}
+
+.form{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.form-item{
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-label{
+  font-family: Raleway;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: rgba(0, 0, 0, 0.18);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Raleway;
+  text-align: center;
+}
+
+.sub_btn{
+  text-align: center;
+}
+
+.custom-toggler .navbar-toggler{
+  background-color: black;
+}
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+  @media (max-width: 500px){
+    .text_con h1{
+      font-size: 20pt;
+    }
+
+    .wrapper{
+      height: 500px;
+
+
+  }
+
+  .block{
+    left: 50%;
+  }
+
+  .inner_left_small{
+    height: 200px;
+  }
+
+  .wrapper{
+    height: 200px;
+  }
+
+  .expandInfo{
+    height: 500px;
+  }
+
+
+  .plane{
+    height: 350px;
+  }
+  .train{
+    height: 200px;
+  }
+
+  .head_map{
+    height: 300px;
+    overflow: none;
+  }
+
+  .text-block h1{
+    font-size: 14pt;
+  }
+
+  .inner_vert{
+    height: 20%;
+  }
+}

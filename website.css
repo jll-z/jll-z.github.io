@@ -551,12 +551,24 @@ margin-bottom: auto;
     font-size: 10pt;
   }
 
+  .inner_text ul li {
+    font-size: 13pt;
+  }
+
   .m-head{
     text-align: left;
   }
 
   .container{
     padding: 10px;
+  }
+
+  .container-updated{
+    height: 400px;
+  }
+
+  .center-pic{
+    object-fit: cover;
   }
 
 }
@@ -617,7 +629,7 @@ footer p {
 
   .block{
     top: 43%;
-    width: 100%;
+    width: 80%;
     left: 50%;
   }
 
@@ -645,4 +657,6 @@ footer p {
   .container{
     padding: 10px;
   }
+
+
 }

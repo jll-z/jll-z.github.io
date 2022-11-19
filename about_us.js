@@ -13,7 +13,7 @@
 
     function slideIn() {
       for (let i = 0; i < items.length; i++) {
-        if (isElementInViewport(items[i]) || window.innerWidth<600) {
+        if (isElementInViewport(items[i])) {
           items[i].classList.add("slide-in");
         } else {
           items[i].classList.remove("slide-in");

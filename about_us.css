@@ -421,7 +421,7 @@ time {
       width: 100%;
     }
     .timeline-section ul li div{
-      font-size: 6pt;
+      font-size: 1.2rem;
     }
 
     .timeline-section time{
@@ -443,4 +443,45 @@ time {
   .block{
     left: 50%;
   }
+
+
+  .head_con .container-updated{
+    height: 400px;
+  }
+
+  .center-pic{
+    object-fit: cover;
+  }
+
+  .timeline-section ul li{
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+
+  time{
+    font-size: 5em;
+    font-weight:600;
+  }
+
+  .timeline-section ul li:nth-child(even) div {
+      left: 10vw;
+
+  }
+
+  .timeline-section ul li:nth-child(odd) div {
+      left: 10vw;
+  }
+  .timeline-section ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+}
+
+.timeline-section ul li div {
+  width: 70vw;
+}
+.timeline-section ul li:nth-child(even) div {
+    transform: translateX(0rem);
+}
+
 }

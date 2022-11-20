@@ -602,9 +602,13 @@ object-fit: cover;
 .internal_p.small_p{
   font-size: 6pt;
 }
+
+.text-block h1{
+  font-size: 20pt;
+}
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
   .carousel_container{
     height: 300px;
   }
@@ -618,6 +622,15 @@ object-fit: cover;
 
 .internal_p{
   font-size: 6pt;
+}
+
+.container-updated{
+  height: 400px;
+}
+
+.center-pic{
+  object-fit: cover;
+  border-radius: 0;
 }
 
 

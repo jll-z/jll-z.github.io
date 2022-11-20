@@ -429,6 +429,26 @@ time {
     }
   }
 
+@media (max-width: 600px){
+  .block{
+    left: 50%;
+  }
+
+
+  .head_con .container-updated{
+    height: 400px;
+  }
+
+  .center-pic{
+    object-fit: cover;
+    border-radius: 0;
+  }
+
+  .text-block h1{
+    font-size: 20pt;
+  }
+}
+
 @media (max-width: 1000px){
   .timeline-section ul li{
     font-size: 6pt;

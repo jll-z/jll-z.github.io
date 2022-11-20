@@ -542,7 +542,7 @@ margin-bottom: auto;
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .text-block h2{
     font-size: 14pt;
   }
@@ -569,9 +569,16 @@ margin-bottom: auto;
 
   .center-pic{
     object-fit: cover;
+    border-radius: 0;
+  }
+
+  .block{
+    left: 50%;
+    height: 60%;
   }
 
 }
+
 
 @media (max-width: 250px){
   .text-block h2{
